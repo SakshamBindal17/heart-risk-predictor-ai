@@ -257,7 +257,7 @@ st.markdown("---")
 
 with st.expander("Open Chat with AI Health Assistant"):
 
-    st.header("Personalized AI Health Assistant")
+    st.header("Personalised AI Health Assistant")
 
     # Prepare user_features_for_prompt dictionary
     user_features_for_prompt = {
@@ -496,5 +496,6 @@ User's health features:
 
         # Rerun app to update UI and show new messages
         st.rerun()
+
 
 
