@@ -358,7 +358,7 @@ with st.expander("Open Chat with AI Health Assistant"):
             st.session_state.has_greeted = False
 
         # Button to get initial personalized advice and start conversation
-        if st.button("Get AI Personalized Advice"):
+        if st.button("Get AI Personalised Advice"):
             abnormal_features = find_abnormal_features()
 
             prompt = f"""You are a compassionate heart health assistant.
@@ -496,4 +496,5 @@ User's health features:
 
         # Rerun app to update UI and show new messages
         st.rerun()
+
 
